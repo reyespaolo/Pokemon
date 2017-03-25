@@ -12,6 +12,7 @@
 		52D971CF1E864C83006E7EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D971CD1E864C83006E7EAD /* Main.storyboard */; };
 		52D971D11E864C83006E7EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D971D01E864C83006E7EAD /* Assets.xcassets */; };
 		52D971D41E864C83006E7EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D971D21E864C83006E7EAD /* LaunchScreen.storyboard */; };
+		52D971DD1E8655F6006E7EAD /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 52D971DC1E8655F6006E7EAD /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		52D971D01E864C83006E7EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D971D31E864C83006E7EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D971D51E864C83006E7EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D971DC1E8655F6006E7EAD /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		52D971C81E864C83006E7EAD /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				52D971DB1E8655E9006E7EAD /* Data */,
 				52D971C91E864C83006E7EAD /* AppDelegate.swift */,
 				52D971CB1E864C83006E7EAD /* ViewController.swift */,
 				52D971CD1E864C83006E7EAD /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				52D971D51E864C83006E7EAD /* Info.plist */,
 			);
 			path = pokemon;
+			sourceTree = "<group>";
+		};
+		52D971DB1E8655E9006E7EAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				52D971DC1E8655F6006E7EAD /* pokemon.csv */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				52D971D41E864C83006E7EAD /* LaunchScreen.storyboard in Resources */,
 				52D971D11E864C83006E7EAD /* Assets.xcassets in Resources */,
+				52D971DD1E8655F6006E7EAD /* pokemon.csv in Resources */,
 				52D971CF1E864C83006E7EAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
